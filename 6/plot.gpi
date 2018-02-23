@@ -1,3 +1,0 @@
-set terminal svg
-set output "plot.svg"
-plot "out.io.txt", "out.cdm.txt"
