@@ -1,0 +1,8 @@
+set terminal png
+set output "airy.png"
+set xlabel "x"
+set ylabel "y"
+
+
+
+plot [-10:10] "airy.data"
