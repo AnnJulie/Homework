@@ -1,0 +1,6 @@
+set terminal png
+set output "varMethod.png"
+set xlabel "x"
+set ylabel "[Functional]"
+
+plot "varMethod.data" with lines title "variation method functional"
