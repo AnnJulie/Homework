@@ -1,0 +1,6 @@
+set terminal png
+set output "orbit.png"
+set xlabel "phi"
+set ylabel "u"
+
+plot "orbit.data"  using (1/$2)*sin($1):(1/$2)*cos($1) with lines title "myOrbit"

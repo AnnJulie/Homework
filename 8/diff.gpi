@@ -1,0 +1,7 @@
+set terminal png
+set output "diff.png"
+set xlabel "x"
+set ylabel "y"
+
+plot[0:3] "diff.data" title "My solution" \
+	, "analytical.data" with points title "Analytical solution"
