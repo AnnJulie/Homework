@@ -1,0 +1,6 @@
+set terminal pdf
+set output "error.pdf"
+set xlabel "x"
+set ylabel "erf(x)"
+
+plot "error.data" index 0 with line ls 1
