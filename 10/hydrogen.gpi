@@ -1,0 +1,7 @@
+set terminal png
+set output "hydrogen.png"
+set xlabel "r"
+set ylabel "radial function"
+
+plot "hydrogen.data" index 1 using 1:2 with line ls 1 title "minimal energy solution",\
+		'' index 1 using 1:3 ls 2 title "analytical"
