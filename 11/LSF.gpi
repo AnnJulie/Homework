@@ -1,0 +1,8 @@
+set terminal png
+set output "LSF.png"
+set xlabel "time"
+set ylabel "activity"
+
+plot "LSF.data" index 0 title "experimental data",\
+	'' index 1 with line title "fitting function"
+ 
