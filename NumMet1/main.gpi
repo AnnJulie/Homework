@@ -1,0 +1,7 @@
+set terminal png
+set output "main.png"
+set xlabel "x"
+set ylabel "y"
+
+plot "main.out.data" index 0 title "datapoints from sin(x)",\
+	'' index 1  title "linear interpolation"
