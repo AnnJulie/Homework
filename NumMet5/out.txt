@@ -1,0 +1,51 @@
+
+NEWTONS METHOD:
+Finding roots of the linear system.
+Initial guess: x1 = 100, x2 = 1
+count = 99
+Finding roots of the Rosenbrock's valley function.
+Initial guess: x1 = 0.9, x2 = 0.9
+Converged after 49 iterations.
+Vector x:
+1 1 
+
+
+Finding roots of the Himmalblau's function.
+Initial guess: x1 = 4, x2 = 3
+Converged after 4 iterations.
+Vector x:
+3 2 
+
+
+NEWTONS METHOD WITH JACOBIAN:
+Finding roots of the linear system.
+Initial guess: x1 = 100, x2 = 1
+Converged after 2 iterations.
+Vector x:
+100.004 9.99963e-07 
+
+Finding roots of the Rosenbrock's valley function.
+Initial guess: x1 = 0.9, x2 = 0.9
+Converged after 49 iterations.
+Vector x:
+1 1 
+
+
+Finding roots of the Himmalblau's function.
+Initial guess: x1 = 4, x2 = 3
+Converged after 4 iterations.
+Vector x:
+3 2 
+
+
+GSL procedure for the Rosenbruck function.
+Initial guess: x1 = 0.9, x2 = 0.9
+iterations:    22
+(x,y) = (0.99997 0.99994)
+
+
+GSL procedure for the Himmelblau function.
+Initial guess: x1 = 4, x2 = 3
+iterations:    13
+(x,y) = (3.00000 2.00000)
+
