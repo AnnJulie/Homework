@@ -1,0 +1,48 @@
+Generate matrix A and vector b for equation Ax = b
+Vector b:
+3 4 2 
+
+Matrix A:
+3 -6 
+4 -8 
+0 1 
+
+Perform QR decomposition
+Matrix Q:
+0.6 0 
+0.8 0 
+0 1 
+
+Matrix R:
+5 -10 
+0 1 
+
+Check QR = A:
+Matrix QR:
+3 -6 
+4 -8 
+0 1 
+
+Check QTQ = 1:
+Matrix (Q^T)Q:
+1 0 
+0 1 
+
+Solution!
+Vector x:
+5 2 
+
+Checking solution:
+Vector Ax (should be equal to b):
+3 4 2 
+
+Compute B = A-1
+Matrix B:
+0.12 0.16 2 
+0 0 1 
+
+Check BA = 1
+Matrix BA:
+1 0 
+0 1 
+
