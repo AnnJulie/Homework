@@ -1,0 +1,39 @@
+Matrix A with eigenvalues 0,-3,-3:
+-2 1 1 
+1 -2 1 
+1 1 -2 
+
+Diagonalized A with 3 sweeps
+Matrix V:
+0.707107 0.408248 0.57735 
+-0.707107 0.408248 0.57735 
+-1.23358e-17 -0.816497 0.57735 
+
+Vector e:
+-3 -3 1.36955e-33 
+
+Testing diagonalization times:
+
+CYCLIC
+12x12 matrix: 
+time = 0.000156 sec
+
+24x24 matrix: 
+time = 0.001069 sec
+
+36x36 matrix: 
+time = 0.003731 sec
+
+n doubles and time gets approx 8 times as large. -> ~O(n)^3
+
+VALUE-BY-VALUE
+12x12 matrix: 
+time = 0.000252 sec
+
+24x24 matrix: 
+time = 0.00459 sec
+
+36x36 matrix: 
+time = 0.014555 sec
+
+Value-by-value method takes longer time.
