@@ -1,0 +1,14 @@
+
+Minimize the Rosenbrock's valley function.
+Initial guess: x = 0.5, y = 1.5
+Converged after 3 iterations.
+Vector x:
+0.999603 0.999207 
+
+
+Minimize the Himmelblau's function.
+Initial guess: x = 3.5, y = 1.7
+Converged after 3 iterations.
+Vector x:
+3.00001 2 
+
