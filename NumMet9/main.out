@@ -1,0 +1,14 @@
+Integrating f(x,y) = x*y from x=[0,2], y=[0,2]:
+Using N = 10
+result = 2.2674, error = 0.985057
+Using N = 100
+result = 4.42967, error = 0.364128
+Using N = 1000
+result = 3.98749, error = 0.108972
+Using N = 10000
+result = 3.97659, error = 0.0353582
+Increasing N by a factor of 10 results in a decreace in the error of approximately sqrt(10) ≈ 3.16
+
+
+Integrating f(x,y,z) = (1/π^3)*[1-cos(x)cos(y)cos(z)]^-1 from x=[0,pi], y=[0,pi], z=[0,pi]:
+result = 1.39706, error = 0.0110423
