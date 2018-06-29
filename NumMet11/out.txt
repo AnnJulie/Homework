@@ -1,0 +1,15 @@
+TASK:
+Integrate a function defined differently overt three intervals
+          x*cos(x)       ,    0 < x < PI
+  f(x) =  sin(x)*sin(x)  ,   PI < x < 2*PI
+          cos(x)*cos(x)  , 2*PI < x < 3*PI
+
+first integrate the intervals after each other:
+result = 1.14231, error = 0.00191501
+time = 0.887906 sec
+
+Now integrating the intervals in  parallel sections:
+result = 1.13559, error = 0.00191552
+time = 1.95581 sec
+
+It took longer time to split the processor in three parts than the gain of integrating simultaneously. This thus serves as a bad example of how to save time by multiprocessing
