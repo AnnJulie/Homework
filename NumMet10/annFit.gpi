@@ -1,0 +1,8 @@
+set terminal png
+set output "annFit.png"
+set xlabel "x"
+set ylabel "f(x)"
+
+
+plot "annFit.data" index 1 with line ls 1 title "f(x) = cos(5x-1)*exp(-x^2)",\
+                '' index 2 title "ann fit"
